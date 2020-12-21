@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-20T02:24:29Z" name="AllSuite" finished-at="2020-12-20T02:24:49Z" duration-ms="20353">
+    <groups>
+    </groups>
+    <test started-at="2020-12-20T02:24:29Z" name="OneThreadTests" finished-at="2020-12-20T02:24:49Z" duration-ms="20353">
+      <class name="tests.wikiTests.WikiTableTests">
+        <test-method signature="verifyCountryWithMostTallestBuildings()[pri:0, instance:tests.wikiTests.WikiTableTests@61862a7f]" started-at="2020-12-20T02:24:29Z" name="verifyCountryWithMostTallestBuildings" description="Assert country with the most tallest buildings" finished-at="2020-12-20T02:24:37Z" duration-ms="8367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCountryWithMostTallestBuildings -->
+        <test-method signature="verifyOldestBuilding()[pri:0, instance:tests.wikiTests.WikiTableTests@61862a7f]" started-at="2020-12-20T02:24:38Z" name="verifyOldestBuilding" description="Assert oldest building" finished-at="2020-12-20T02:24:42Z" duration-ms="4403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOldestBuilding -->
+        <test-method signature="verifySortingByNameAndHeight()[pri:0, instance:tests.wikiTests.WikiTableTests@61862a7f]" started-at="2020-12-20T02:24:43Z" name="verifySortingByNameAndHeight" description="Assert sorting by Name and Height (m) columns" finished-at="2020-12-20T02:24:49Z" duration-ms="5763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortingByNameAndHeight -->
+      </class> <!-- tests.wikiTests.WikiTableTests -->
+    </test> <!-- OneThreadTests -->
+  </suite> <!-- AllSuite -->
+</testng-results>

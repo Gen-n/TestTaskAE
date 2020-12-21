@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllSuite">
+    <!--PART1-->
+    <test name="OneThreadTests" parallel="methods" thread-count="1">
+        <classes>
+            <class name="tests.wikiTests.WikiTableTests"/>
+        </classes>
+    </test>
+    <!--PART2-->
+<!--    <test name="HeadlessAndTwelveThreads" parallel="methods" thread-count="12">-->
+<!--        <parameter name="browserMode" value="headless"/>-->
+<!--        <packages>-->
+<!--            <package name="tests.wikiTests"/>-->
+<!--        </packages>-->
+<!--    </test>-->
+</suite>
